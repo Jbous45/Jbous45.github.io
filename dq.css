@@ -1,0 +1,115 @@
+html, body {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color:gray;
+	font-family: arial;
+}
+
+#wrap {
+	width:70%;
+	margin:0 auto;
+	background-color: white;
+}
+
+header{
+text-align:center;
+background:rgb(249,170,83);
+/*background: rgb(255,149,0);
+background: linear-gradient(90deg, rgba(255,149,0,1) 24%, rgba(255,0,0,1) 62%, rgba(53,70,255,1) 100%);*/
+}
+
+header img{
+	width:60%;
+}
+
+nav{
+	background-color:rgb(0,122,193);
+	text-align: center;
+	padding: 20px 0;
+	font-family: Verdana;
+}
+nav a{
+	color:white;
+	padding: 20px 30px;
+	text-decoration: none;
+}
+nav a:hover {
+	color:white;
+	background-color:rgb(238,62,66);
+}
+
+nav li{
+	display:inline;
+}
+nav ul{
+	padding:0;
+	margin:0;
+}
+
+section {
+	padding:40px;
+}
+section h1{
+	color:rgb(249,170,83);
+	font-size:180%;
+	margin:0;
+}
+
+section h2{
+	color:rgb(249,170,83);
+	font-size:180%;
+	margin:0;
+}
+section h3{
+	color:red;
+	font-size: 100%;
+}
+p{
+	padding:0;
+}
+
+.blizz{
+	width:30%;
+	float: right;
+}
+.split{
+	width:30%;
+	float: center;
+	padding: 0 20px;
+}
+.dip{
+	width:20%;
+	float: left;
+	padding: 0 20px 0 70px;
+}
+.sun{
+	width:15%;
+	float: right;
+	padding: 0 100px 0 0;
+}
+
+footer{
+	background-color:rgb(238,62,66);
+	color:white;
+	text-align:center;
+	font-family:verdana;
+	font-weight:bold;
+	padding: 20px 0;
+}
+
+.button{
+	background-color:rgb(0,122,193);
+	color:white;
+	text-decoration:none;
+	margin:15px 0;
+	padding:10px;
+	display: inline-block;
+	border-radius: 8px;
+}
+
+a.button:hover {
+	background-color:rgb(249,170,83);
+}
