@@ -1,0 +1,132 @@
+html, body {
+	margin:0;
+	padding:0;
+}
+*{
+	font-family:'Quicksand', sans-serif;
+	
+}
+body {
+	
+}
+#wrap {
+	width:80%;
+	margin:0 auto;
+	background-color: white;
+}
+header img{
+	width:20%;
+}
+header {
+	text-align:center;
+	float:center;
+	font-family:'Quicksand', sans-serif;
+	font-size:60px;
+	padding:20px;
+}
+body#spring{
+	background-color:#f3cfff;
+	
+}
+#spring #wrap{
+	background-color:#fffcc4;
+}
+body#summer{
+	background-color:#ff6e63;
+}
+#summer #wrap{
+	background-color:#c2bdff;
+}
+body#fall{
+	background-color:#bf5c15;
+}
+#fall #wrap{
+	background-color:#ff9b30;
+}
+body#seasons{
+	background-color:#45f57c;
+	
+}
+#seasons #wrap{
+	background-color:#e3fcc2;
+}
+body#winter{
+	background-color:#1473b5;
+}
+#winter #wrap{
+	background-color:#9ed7ff;
+}
+nav{
+	
+	background-color:black;
+	text-align: center;
+	padding: 20px 0;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 35px;
+}
+nav a:hover{
+	color:white;
+	background-color:#d6d6d6;
+}
+nav a{
+	color:white;
+	padding: 20px 30px;
+	text-decoration: none;
+}
+nav li{
+	display:inline;
+}
+nav ul{
+	padding:0;
+	margin:0;
+}
+section {
+	margin:20px;
+	
+}
+.pie{
+	width:50%;
+	float: right;
+	padding: 0 100px 0 0;
+}
+.pump{
+	width:55%;
+	float: right;
+	padding:0 150px 0 0;
+	
+}
+.rolls{
+	width:50%;
+	float: right;
+	padding:0 50px 0 0;
+}
+.cake{
+	width:35%;
+	float: right;
+	padding:0 100px 0 0;
+}
+.p1{
+	font-size:25px;
+	text-align:center;
+}
+h1 {
+	font-size:50px;
+	text-align:center;
+}
+
+.p2{
+	font-size:100px;
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+
+footer{
+	text-align:center;
+	background-color:black;
+	color:white;
+}
+.sea {
+	float:center;
+	width:100%;
+}
