@@ -1,0 +1,37 @@
+html, body {
+	margin:0;
+	padding:0;
+}
+*{
+	font-family:'Quicksand', sans-serif;
+	
+}
+
+body {
+	background-color:#A3E4D7; 
+}
+
+#wrap {
+	width:70%;
+	margin:0 auto;
+}
+
+header {
+	text-align:center;
+	float:center;
+	font-family:'Quicksand', sans-serif;
+	font-size:60px;
+	padding:20px;
+}
+
+section {
+	
+}
+h1 {
+	font-size:35px;
+	
+}
+a {
+	text-decoration:none;
+	
+}
