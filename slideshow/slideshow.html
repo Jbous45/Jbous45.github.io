@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title>Slideshow</title>
+		<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+		<link href="slideshow.css" rel="stylesheet" type="text/css">
+	
+	</head>
+	
+	<body>
+	
+		<div id="wrap">
+	
+		<header>header</header>
+		
+		<nav>nav</nav>
+		
+		<section>  
+		<div class="slider-wrapper theme-light">
+            <div id="slider" class="nivoSlider">
+                <img src="images/elvis1.jpg" data-thumb="images/elvis1.jpg" alt="elvis" />
+                <img src="images/elvis2.jpg" data-thumb="images/elvis2.jpg" alt="elvis2" title="Elvis Presley" /></a>
+                <img src="images/elvis3.jpg" data-thumb="images/elvis3.jpg" alt="elvis3" data-transition="slideInLeft" />
+                <img src="images/elvis4.jpg" data-thumb="images/elvis4.jpg" alt="elvis4" title="#htmlcaption" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+				Here is <a href="https://www.graceland.com/" >a link</a> to The Elvis Presley Website.
+            </div>
+        </div>
+		</section>
+		
+		<footer>footer</footer>
+	
+		</div> <!--close wrap-->
+		 <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+		
+	</body>
+
+
+</html>
