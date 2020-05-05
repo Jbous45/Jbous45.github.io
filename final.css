@@ -1,0 +1,269 @@
+html, body {
+	margin:0;
+	padding:0;
+}
+*{
+	font-family: bello-caps, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+body {
+	
+}
+.back{
+	width:100%
+}
+#wrap {
+	width:80%;
+	margin:0 auto;
+	background-color: white;
+}
+header {
+	text-align:center;
+	float:center;
+	font-size:65px;
+	padding:10px;
+}
+body#f2{
+	background-image: url("backold3.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#f2 #wrap{
+	background-color:#faedc3;
+}
+body#f3{
+	background-image: url("backpris.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#f3 #wrap{
+	background-color:#9cb2f0;
+}
+body#f4{
+	background-image: url("backwild3.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#f4 #wrap{
+	background-color:#fc8a32;
+}
+body#fhome{
+	background-image: url("backhome.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+}
+#fhome #wrap{
+	background-color:#c3e094;
+}
+body#f5{
+	background-image: url("backcan.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#f5 #wrap{
+	background-color:#F1CA90;
+}
+nav{
+	background-color:black;
+	text-align: center;
+	padding: 20px 0;
+	font-size: 35px;
+}
+nav a:hover{
+	color:white;
+	background-color:#949494;
+}
+nav a{
+	color:white;
+	padding: 20px 30px;
+	text-decoration: none;
+}
+nav li{
+	display:inline;
+}
+nav ul{
+	padding:0;
+	margin:0;
+}
+section {
+	margin:20px;
+	
+}
+.faith{
+	width:45%;
+	float: right;
+	padding-right:25px;
+}
+.logor{
+	width:5%;
+	padding:0 25px 0 20px;
+}
+.logol{
+	width:5%;
+	padding:0 15px 0 0;
+}
+.pleft{
+	font-size:25px;
+	width:45%;
+	text-align:center;
+	padding-left:15px;
+}
+.p1{
+	font-size:25px;
+	text-align:center;
+}
+h1 {
+	font-size:50px;
+	text-align:center;
+}
+.p2{
+	font-size:100px;
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+figcaption{
+	font-size:25px;
+	
+}
+#figwrap{
+	float:right;
+	width:40%;
+	padding-right:130px;
+	padding-top:150px;
+	text-align:center;
+	
+}
+.pris{
+	width:45%;
+	padding:28px 0 0 10px;
+	margin:0;
+	
+}
+.basin{
+	width:45%;
+	float: right;
+	padding-top:20px;
+	padding-right:10px;
+}
+.map{
+	width:60%;
+}
+.falls{
+	width:45%;
+	float:right;
+	padding-left:20px;
+	padding-right:25px;
+	padding-top:10px;
+}
+.falls3{
+	width:45%;
+	padding-left:25px;
+}
+form{
+	width:60%;
+	margin:0 auto;
+	
+}
+input{
+	background-color:white;
+}
+.button{
+	background-color:#c3e094;
+	color:black;
+	font-size:15px;
+}
+fieldset{
+	background-color:#9bb376;
+	border-radius:1em;
+	border-color:black;
+}
+legend{
+	font-size:30px;
+	color:black;
+	font-weight:bold;
+	padding: 5px 10px;
+	
+}
+textarea{
+	width:50%;
+}
+.book{
+	background-color:black;
+	color:white;
+	text-decoration:none;
+	margin:15px 0;
+	padding:10px;
+	font-size:25px;
+	border-radius: 8px;
+	text-align:center;
+	margin-left:185px;
+}
+a.book:hover {
+	background-color:rgb(249,170,83);
+}
+.inn{
+	width:45%;
+	padding-left:12px;
+	padding-top:40px;
+}
+.pright{
+	float:right;
+	width:50%;
+	font-size:25px;
+	padding:0 10px 0 0;
+	text-align:center;
+	
+}
+.sign{
+	padding:10px;
+}
+.arch{
+	width:80%;
+	padding-left:100px;
+	padding-right:50px;
+	padding-bottom:20px;
+	padding-top:40px;
+}
+a.trails:hover {
+	color:gray;
+}
+.trails{
+	color:white;
+	text-decoration:none;
+}
+.pin{
+	width:5%;
+}
+a.life:hover {
+	color:gray;
+}
+.life{
+	color:white;
+	text-decoration:none;
+}
+.wmap{
+	width:100%;
+}
+.ulwild{
+	font-size:25px;
+	width:45%;
+}
+.hwild{
+	width:45%;
+	text-align:center;
+	font-size:30px;
+}
+footer{
+	text-align:center;
+	background-color:black;
+	color:white;
+	font-size:20px;
+}
